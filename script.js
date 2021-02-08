@@ -42,21 +42,21 @@ function search(){
             const details = `
         
                     <div class="col mt-5">
-                        <div class="card">
-                            <img src="${data.meals[0].strMealThumb}" class="card-img-top" alt="...">
+                        <div class="card text-center">
+                            <img class="rounded mx-auto d-block" src="${data.meals[0].strMealThumb}" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title text-center">${data.meals[0].strMeal}</h5>
-                                <p>Meal Id : ${data.meals[0].idMeal}</p>
-                                <p> ${data.meals[0].strIngredient1}</p>
-                                <p>${data.meals[0].strIngredient2}</p>
-                                <p>${data.meals[0].strIngredient3}</p>
-                                <p>${data.meals[0].strIngredient4}</p>
-                                <p>${data.meals[0].strIngredient4}</p>
-                                <p>${data.meals[0].strIngredient5}</p>
-                                <p>${data.meals[0].strIngredient6}</p>
-                                <p>${data.meals[0].strIngredient7}</p>
-                                <p>${data.meals[0].strIngredient8}</p>
-                                <p>${data.meals[0].strIngredient9}</p>
+                                <p>=>Meal Id : ${data.meals[0].idMeal}</p>
+                                <p> =>${data.meals[0].strIngredient1}</p>
+                                <p>=>${data.meals[0].strIngredient2}</p>
+                                <p>=>${data.meals[0].strIngredient3}</p>
+                                <p>=>${data.meals[0].strIngredient4}</p>
+                                <p>=>${data.meals[0].strIngredient4}</p>
+                                <p>=>${data.meals[0].strIngredient5}</p>
+                                <p>=>${data.meals[0].strIngredient6}</p>
+                                <p>=>${data.meals[0].strIngredient7}</p>
+                                <p>=>${data.meals[0].strIngredient8}</p>
+                                <p>=>${data.meals[0].strIngredient9}</p>
                                 
                                 <div class = "d-flex justify-content-center">
                                     <button class="card-text btn btn-dark">Back to home</button>
