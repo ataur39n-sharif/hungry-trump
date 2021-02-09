@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hungry Trump</title>
+    <title>Hungry</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
     <!-- bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 </head>
 <body>
     <main class="container">
-        <div class="searchber d-flex justify-content-center mt-5">
-            <input id="input" class="form-control text-center" type="text" placeholder="Search here...">
-            <button onclick="search()" class="btn btn-dark">Search</button>
+        <div id="searchDiv" class="d-flex justify center mt-5">
+            <input id="searchInput" class="form-control text-center" type="text" placeholder="Search...">
+            <button onclick="searchBtn()" class = "btn btn-dark">Search</button>
         </div>
-        <div id="mealDetails" class = "div1">
-
+        <div class="text-center">
+            <h5 id="showError"></h5>
         </div>
-        <div id="allMeal" class="row row-cols-1 row-cols-md-4 g-4 mt-5 d-flex justify-content-center div2">
+        <div id="showDetail" class = "text-center mt-5">
+        </div>
+        <div id="searchResult" class="row row-cols-1 row-cols-md-6 g-4 mt-5 d-flex justify-content-center">
 
         </div>
     </main>
-
-
     <script src="script.js"></script>
 </body>
 </html>
